@@ -1624,7 +1624,7 @@
 
 	body {
 		background-color: #101035;
-		 background-image: linear-gradient(to top, rgba(46, 49, 65, 0.85), rgba(46, 49, 65, 0.85)), url("../../images/backgrounds/robot.jpg"); 		background-size: auto, cover;
+		 background-image: linear-gradient(to top, rgba(119, 105, 68, 0.26), rgba(255, 255, 255, 0.089)), url("../../images/backgrounds/Picture3.png"); 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
 	}
@@ -3864,3 +3864,15 @@
 		}
 
 	}
+	#video-background {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -1;
+		
+
+	  }
